@@ -1,1 +1,1 @@
-def register (fistname,last,age,password):
+def register (fistname,last,age,password,email):
