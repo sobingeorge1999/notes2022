@@ -9,4 +9,5 @@ create a new repository in github
 copy the http path
 git remote add anyname http path
 git push -u anyname master (for first time we use -u)
-git remote -v
+git push anyname master 
+git remote -v (to know the remote )
