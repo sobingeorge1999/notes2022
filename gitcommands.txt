@@ -5,3 +5,7 @@ git commit -m "message"
 git login
 git checkout 'id copy'
 git checkout master
+create a new repository in github 
+copy the http path
+git remote add anyname http path
+git push -u anyname master
