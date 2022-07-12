@@ -1,0 +1,7 @@
+model form
+which model we need
+
+django model forms -seacrhon gogl
+
+fields=["","","",""]
+fileds="__all__"  

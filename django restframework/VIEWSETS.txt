@@ -1,0 +1,29 @@
+class 11
+
+viewsets
+
+methods
+list() ->retriving all instance
+retrive() ->fetching a specific instance
+create()  ->to create
+update()  -> to update
+destroy() ->delete
+
+from rest_framework.viewsets import ViewSet
+
+
+for create method we have to say the user,in serializer use create
+url mapping is different
+
+from rest_framework.routers import DefaultRouter
+
+router=DefaultRouter()
+router.register("todosviewset",views.TodosViewsetView,basename="todosview")
+
++router.urls
+http://127.0.0.1:8000/api/v1/todosviewset/
+
+post doesnt need id
+
+modelviewset
+from rest_framework.viewsets import ModelViewSet

@@ -1,0 +1,14 @@
+database delete- 32
+33- navbar
+36-message pop up,http notes
+
+
+37-listapplications,unique together django
+for clean data -open shell, a note is there
+
+38-application cancelled,
+
+39-for def no need of self
+id we used is the url id
+
+39-pending some in this 

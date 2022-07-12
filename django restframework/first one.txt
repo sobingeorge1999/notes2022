@@ -1,0 +1,28 @@
+Django Rest FrameWork  class no.1
+
+API -Application programming interface 
+enable communication between differnt application
+REST frame work(DRF)
+
+for fornt end we use Angular
+DRF- used for creating API
+
+
+-CRUD functionalities
+Create->POST
+retrive->GET
+update->PUT/PATCH
+Delete->DELETE
+
+httpmethod :GET,POST,PUT/PATCH,DELETE
+
+http status code
+status code  2xx means 200 series 
+1xx-information response
+2xx-success response
+3xx-redirectional messege
+4xx-client error response
+5xx-server error  response
+
+json placeholder--search for todos
+

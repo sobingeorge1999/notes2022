@@ -1,0 +1,31 @@
+create a virtual environment
+
+pip list
+pip install virtualenv  -if it is not found 
+python -m virtualenv venv     -this is to create venv
+venv\scripts\activate.bat     -this command for activate virutal environment
+deactivate                    -this is for deactivate
+pip install Django
+pip list
+
+django-admin startproject projectname     -this to create django proj
+
+copy the path and put in on pycharm as file open open the project country
+then we need to add the environment we created as myenv
+
+files->settings->project:countries -> python interpreter
+then settings->add->existing env and select our myenv ->scripts ->python.exe
+
+after this 
+select terminal [from pycharm window]
+python manage.py runserver  -this is to run server
+
+then we will get a sever link
+
+then go to any browser and type as
+localhost:8000    
+
+
+you have to activate virtual env before creating proj and install Django
+
+

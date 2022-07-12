@@ -1,0 +1,37 @@
+search-authetication django
+
+
+in installed app auth is already there
+1)create a form
+  django.contrip.auth.models import (press ctr+space to know classes) User
+  import usercreation
+2)view
+  import user
+  import form class
+
+3)urls
+  
+4)template
+
+if we want any changes in database then only we use models in form
+
+registration form
+
+signinview
+imort authenticates in view
+is form valid
+username=same as in form and pass also
+
+python manage.py createsuperuser
+username=
+password=
+
+login sessions
+import login
+login(request,user)
+
+logout 
+function base view
+import logout
+.as_view not needed in urls
+

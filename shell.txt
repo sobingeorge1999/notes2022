@@ -1,0 +1,36 @@
+seacrching for uses
+django models
+making queries
+Django orm
+
+models -for stroing data
+
+
+Employees.objects.create(employee_name="varun",dept="tp",salary=40000,exp=4)
+
+when ever we make changes in model we use this
+for database if use this two steps
+
+first this commands
+python manage.py makemigrations
+python manage.py migrate   -
+for migration we have to come out from shell by ctrlz+enter
+
+
+Django ORM -object relational maping
+orm query for creating an resounce
+
+to create shell
+python manage.py shell
+for writing this commands in terminal we have to create shell
+
+#orm for creating a new job obj
+
+#from employer.models import Jobs
+#Jobs.objects.create(job_title="Testing",company_name="TCS",location="kochi",salary=24000,experince=3)
+
+
+#fetching all records from database
+# qs=Jobs.objects.all()
+
+#control z + enter for closing

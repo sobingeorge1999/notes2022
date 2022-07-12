@@ -1,0 +1,45 @@
+customizing django user model-search
+
+delted the sqlite3 and migrations exept init file
+
+create a user in models
+change the user in form and views
+
+go to admin.py and add user
+then go to settings and AUTH_USER_MODEL="employer.User"
+
+then migrations and migrate
+
+
+create new application as candidate
+add in installed apps
+connect url
+
+bootsrap ->example_>download->and exract here
+copy the index.html and paste
+
+control+f for seacrhing in code
+
+
+create model for cnadidate
+in model -user- one to one field
+on delete is used to delete the prof when used is deleted
+and do migrations and migrate
+
+create a form 
+import that model in form
+in class meta give model and fields 
+
+create a view
+import form and model
+
+for image upload use code in main urls
+and add enctype
+
+list the jobs for candidate
+create a view
+to change the query use get_query
+context_object name is used in temolete
+use - for desending 
+
+

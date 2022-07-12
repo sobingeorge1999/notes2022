@@ -1,0 +1,10 @@
+for class we use decorator as
+from django.utils.decorators import method_decorator
+from decorators import sign_required
+
+for class
+@method_decorator(sign_required,name='dispatch')
+
+for functions
+@sign_required
+

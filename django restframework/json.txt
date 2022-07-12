@@ -1,0 +1,12 @@
+data format is called json  -classno.2
+to transfer data 
+
+javascript object notation -json
+dict is python native type
+
+client->objects->stream of bytes->databse
+instead of form we use searializer here
+
+serialization ->to convert objects to stream of bytes
+deserialization-> to convert stream of bytes to objects
+

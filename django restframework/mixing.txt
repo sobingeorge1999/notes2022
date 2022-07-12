@@ -1,0 +1,6 @@
+  from rest_framework.generics import genericApiView
+
+
+CreateModelMixin
+ListModeMixin  -return self.list
+

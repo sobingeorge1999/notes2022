@@ -1,0 +1,39 @@
+User authentication in Django
+
+class-5
+to create a user model we import it
+django.contrib.auth.models import User
+
+put field name as in user model
+
+password have to be hidden
+to hash password we use create_user
+
+def name 
+this means its a method 
+def _anyname
+this means private method or special method
+so it can be called only from that class
+
+multiple inheritence doesnt support in javascript so  they use interface
+
+** is used for dict
+
+authticate -it will check username and pass
+login -user section will start and store
+
+user=forienkey
+delete the migrations and database
+
+
+authentication
+1)basic authentication
+  session auth
+2)token authentication 
+3)jwt javascript web token
+
+class 7
+basic auth
+import authentication and permissions
+auth_class and permission_classes
+in vs code go for auth and basic auth

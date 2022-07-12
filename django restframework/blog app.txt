@@ -1,0 +1,44 @@
+blog
+
+first plan the functunalities
+
+create a new post
+detail view of a post
+update a post
+delete a post
+like,comment
+resgist,login,logout
+user prof pic add
+
+
+user model
+uname,passw
+
+user prof model
+user =1:1 field
+
+blog model 
+title
+author 1:many forienkey
+content
+image,posted_date,
+liked_by - many to many
+
+comments
+Post 1:M (blog)
+comment:charfield
+used:1:M(user)
+
+migrations means to generate query file
+migrate query set will apply to database
+
+queryset
+all_blogs=Blogs.objects.all()
+all_blogs
+
+new=Blogs.objects.get(id=1)
+new
+likes=new_post.liked_by.all()
+likes
+likes=new_post.liked_by.all().count()
+

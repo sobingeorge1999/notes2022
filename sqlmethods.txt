@@ -1,0 +1,36 @@
+sqliteonline
+
+this is the orm quries
+qs=Jobs.objects.filter(experince=3)
+qs=Jobs.objects.filter(experince__gt=1)
+
+#here <,> is not work so __gt it means greater than
+# __lt less than
+#__lte less than equal to
+
+#fetching a specific object
+#qs=Jobs.objects.get(id=5)
+
+#fetching a specific object
+#qs=Jobs.objects.get(id=5)
+# qs.experince=2
+# qs.save()
+
+#qs=Jobs.objects.get(id=2)
+#qs.delete()
+#list,detail,update,delete
+
+we need form when obj create or update
+
+1)create forms.py in application
+  create a form
+2)create a view 
+  create a obj for form
+3)create a template for html page
+4)conect urls in appl
+5)go to base page and href ->url
+
+for values {{}}
+for if,for,or any condition {{%%}}
+
+integrity error happens in database

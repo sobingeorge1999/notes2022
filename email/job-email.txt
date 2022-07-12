@@ -1,0 +1,16 @@
+class -14
+
+sending email djano ->search
+
+open your email and enable 2 step verification on
+add apps
+select app
+others
+generate pin ->copy it
+
+SMTP backend
+add some terms in settings
+add your email and pin generated
+
+
+

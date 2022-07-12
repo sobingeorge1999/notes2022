@@ -1,0 +1,6 @@
+open vs code 
+open extension->thunder client-> install
+for testing API we installed this 
+
+open thunder client -new request
+

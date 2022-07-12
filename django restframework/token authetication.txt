@@ -1,0 +1,31 @@
+
+token based auth ->it is mainly used for testing purpose every time we use userand pass
+
+
+2) jwt - javascript web token
+simple jwt -> search
+  1)pip install djangorestframework-simplejwt ->  in terminal
+
+  2)REST_FRAMEWORK = {
+    
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+    
+   }  ->project settings
+  3)'rest_framework_simplejwt' in installed apps
+  4) add path in project urls
+  5) migrate apply when ever we add items in intsalled apps we have to do mirations
+
+
+in body given username and pass alredy regis then we will get access token
+token get experies in some min
+
+then pass the token in auth->bearer
+
+for token time -> add in settings
+from datetime import timedelta
+then add SIMPLE_JWT inside that change hours only two lines
+
+prefer to use modelviewset
+ 

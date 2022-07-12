@@ -1,0 +1,34 @@
+template inheritance
+static -css,js,images
+
+css gradient generator - bg mix color
+load static for static folders
+and add css link
+
+django forms
+
+django framework-
+
+createView
+form class
+model
+template
+write orm query
+
+
+listView 
+model
+context _object name
+template name
+orm=>Model.objects.all()
+
+success_url must given in post and path is as in urls name
+when were post is their form and success url must there
+
+detailview
+model
+template
+context_object 
+pk_url=rl_kwarg="id"
+
+deleteView

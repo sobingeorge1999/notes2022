@@ -1,0 +1,25 @@
+create new enviorn and install django and create new project
+
+search- django rest framework ->tutorial
+add the env
+
+1)pip install  djangorestframework
+2) pip freeze > requirments.txt   (requirment.txt is text name we given)
+3) settings -> installed apps ->'rest_framework'
+4) create new app -> python manage.py startapp api and add to installed apps
+
+create model
+migrations and migrate - to generate quires
+create view
+
+class 4
+searilizer
+serializers.py create it application side
+import Modelserializer
+import our model
+
+here many=True becuse we are using different data for serializer
+read only=True means only for reaing purpose
+
+the oder is printed based on the oder we given in fields meta class
+

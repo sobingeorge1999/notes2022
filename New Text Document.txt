@@ -1,0 +1,2 @@
+application urls we have to create as python file 
+urls.py

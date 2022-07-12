@@ -1,0 +1,3 @@
+python manage.py shell
+from employer.models import Application
+Application.objects.all().delete

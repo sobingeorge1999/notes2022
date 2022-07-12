@@ -1,0 +1,14 @@
+jobportal html templates
+free sidebar templates
+-simple side bar
+_user authentication in django
+
+
+
+
+selct the navbar and down 
+then from file extra here and select the folder and copy in static
+
+
+{%load static%} in templ in html
+for renaming file refrator-rename

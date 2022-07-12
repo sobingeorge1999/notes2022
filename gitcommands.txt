@@ -1,13 +1,23 @@
+open git bash here 
+
 git init
 git status
-git add-A
+git add -A
 git commit -m "message"
-git login
-git checkout 'id copy'
+
+this below is optional
+git log   - to know the history
+git checkout 'id copy'   a id shown in yellow colour
 git checkout master
+
+
 create a new repository in github 
 copy the http path
 git remote add anyname http path
 git push -u anyname master (for first time we use -u)
 git push anyname master 
 git remote -v (to know the remote )
+
+
+note
+we have to put name for html file as index.html

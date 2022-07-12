@@ -1,0 +1,28 @@
+to create a coutries application or application
+
+python manage.py startapp countries
+when ever we create a app then we have put in installed apps
+then go to settings.py file ->installed apps-> add your file name countries
+
+then create a directory as templates inside the created app
+create a python file as urls.py
+
+then go 
+
+then open view.py
+
+go to rooturls
+and add your application root
+
+
+to create new port
+python manage.py runserver 8002
+
+in form there must be a csrf token
+{%csrf_token%}
+
+to give a value to client
+it must be a dictionary
+
+django template language
+

@@ -1,7 +1,0 @@
-git init
-git status
-git add-A
-git commit -m "message"
-git login
-git checkout 'id copy'
-git checkout master

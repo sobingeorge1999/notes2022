@@ -1,0 +1,23 @@
+different relationship or model relationship
+database model
+
+one to one   -
+one to many  - foriegn key`
+many to many
+
+intregrity error in database
+
+whenever we change model we have make migrations
+1)form imort model
+2)view import model,form
+3)template
+4)url
+
+
+pip install pillow   for image upload
+
+foreign key cant use null TRue
+
+python manage.py createsuperuser
+
+in forms use exclude use comma

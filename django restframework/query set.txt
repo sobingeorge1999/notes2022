@@ -1,0 +1,29 @@
+python manage.py createsuperuser
+queryset
+open shell
+from api.models import Blogs
+Blogs.objects.create(title_name="hai",auther_name=user,content="dhdka")
+
+to get one user
+from django.contrib.auth.models import User
+user=User.objects.get(id=1)
+user
+Blogs.objects.create(title_name="hai",auther_name=user,content="dhdka")
+
+to get all blogs we use
+all_blogs=Blogs.objects.all()
+all_blogs
+
+new=Blogs.objects.get(id=1)
+new
+post.liked_by.add(user)  ->this is to like the post
+
+likes=new_post.liked_by.all()
+likes
+likes=new_post.liked_by.all().count()
+blog.auther
+
+
+comment
+from api.models import Comments
+Comments.objects.create(blog=rain_blog,comment="here",user=username)
