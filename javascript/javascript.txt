@@ -1,0 +1,40 @@
+class -1
+cmd
+node -v  -to know its installed
+
+open cmd
+code .   ->to open vs code
+
+javascript  ->two sides we can use client and server side
+
+compiled   ->code optimization
+interpreter ->no code optimization
+
+js is interpreted language
+
+
+to link js in html
+<script src="./scripts.js"></script>
+
+console.log("for print");
+
+javascriptEngine  
+ECMA SCRIPTS 
+
+v8 engine
+spidermonkey
+
+node is js runtime
+
+
+to open teminal 
+right click on js file and open in integrated terminal
+
+node scripts.js
+
+callstack 
+memory heap
+
+interview ques  -> largest number u can make
+
+

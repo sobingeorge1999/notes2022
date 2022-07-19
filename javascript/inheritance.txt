@@ -1,0 +1,8 @@
+in js all are object
+so object is the parent
+
+arr.__proto__  to find the parent
+
+extends
+
+it wont support multiple inheritence

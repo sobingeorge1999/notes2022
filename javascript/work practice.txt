@@ -1,0 +1,19 @@
+data structure and algorithms DSA
+BFS,DFS
+
+class -2
+we can use in browser also in console 
+
+n1=10
+n2="10"
+in js n1==n2
+it will print true bec it will check only the content
+
+then n1===n2
+now it will retrun false 
+it will check content and type also
+
+TYPE COERCION
+
+*args accept as list
+**kwars accept as dic 
